@@ -1,0 +1,200 @@
+    .action-button,
+    .div-icon,
+    .area-gambar {
+        margin-left: 10px;
+    }
+
+    .background-gambar {
+        height: 600px !important
+    }
+
+    .contact-button {
+        margin-left: 48% !important;
+    }
+
+    textarea {
+        margin-top: 0px !important;
+    }
+
+    table tr td {
+        padding-left: 20px !important;
+    }
+
+
+* {
+    font-family: 'Roboto'
+}
+
+body {
+    background: url('bg.gif');
+}
+
+
+.nafbar-biru-2 {
+    background-color: rgb(0, 131, 125);
+}
+
+.background-gambar {
+    background: url('latar.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color:  rgb(239, 247, 228)
+}
+
+.icon-fa {
+    color: rgb(239, 247, 228);
+    transition: 1s;
+    padding-right: 15px;
+}
+
+.icon-fa:hover {
+    color: rgb(77, 191, 217)
+}
+
+.action-button {
+    background-color: rgb(0, 131, 125);
+    color: white;
+    border: none;
+    transition: 1.5s;
+}
+
+.hide {
+    display: none;
+}
+
+.action-button:hover {
+    background-color: rgb(6, 120, 145);
+}
+
+.scroll-top {
+    background-color: rgb(6, 120, 145);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+.scroll-top:hover {
+    background-color: rgb(37, 151, 177);
+}
+
+.exp {
+    transition: 0.5s;
+}
+
+.bg-biru {
+    background-color: rgb(66, 180, 205);
+}
+
+.input-form {
+    padding: 10px;
+    font-size: 14px;
+    outline-style: none;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+textarea {
+    max-width: 100%;
+    height: 178px;
+    max-height: 178px;
+}
+
+table tr td {
+    padding-left: 100px;
+}
+
+.progress-bar {
+    width: '0px'
+}
+
+.shadow-pulse {
+    animation-name: shadowPulse;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+.port-detail {
+    height: 350px;
+    box-shadow: 0.5px 0.5px 3px 0.5px rgba(0.9, 0.9, 0.9, 0.2);
+}
+
+.port-text {
+    padding: 30px;
+}
+
+.port-link:hover {
+    text-decoration: none;
+}
+
+#menu {
+    background:#26C4C2;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#menu ul {
+    list-style: none;
+
+}
+#menu ul li {
+    float: left;
+    line-height: 65px
+}
+#menu ul li a {
+    float:left; 
+    width:100px; 
+    display:block; 
+    text-align:center; 
+    color:#FFF; 
+    text-decoration:none; 
+}
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color:#26C4C2;
+    float: none;
+    top:65px; 
+    width:190px;
+}
+#menu ul li a:hover {
+    background-color:#2E9EA2; 
+    display:block;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu ul ul li a {
+    display:block;
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+    height: 60px;
+    line-height: 60px;
+}
+#menu ul ul li a:hover {
+    color:#fff;
+}
+#heading{
+    float: left;
+    width: 640px;
+}
+#heading a {
+    line-height: 65px;
+    text-decoration: none;
+    padding-left: 60px;
+    color:#FFF;
+    font-family: aardvark cafe;
+    font-size: 40px;
+}
