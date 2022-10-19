@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>muhammad rafli aditya. H Profile</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylec.css">
+</head>
+
+<body>
+    <nav id="menu">
+        <ul>
+            <div id="heading">
+                <a href="#">Rafliaditya963</a></li>
+            </div>
+            <li><a href="home.html">Dashboard</a></li>
+            <li><a href="About.html">Biodata</a></li>
+            <li><a href="contact.html">Contact</a>
+            </li>
+            <ul>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <form method="post">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="left">
+                    </div>
+                    
+                    <div class="right">
+                        <h2>Contact Us</h2>
+                        <input type="text" class="field" placeholder="Your Name" id="nama">
+                        <input type="text" class="field" placeholder="Your Email" id="email">
+                        <textarea placeholder="Message" class="field" id="pesan"></textarea>
+                        <button class="btn" onClick="sendmesseage()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+       
+    </div>
+
+    <div>
+        <p class="text-center py-3" style="font-size: 14px; color:white;">&copy; Copyright 2022 MuhRafliaditya</p>
+    </div>
+    <script type="text/javascript">
+        function sendmesseage() {
+            sender = document.getElementById("nama").value;
+            email = document.getElementById("email").value;
+            message = document.getElementById("pesan").value;
+            if (sender == "" || email == "" || message == "") {
+                alert("mohon untuk mengisi nama, email, dan pesan")
+            } else {
+                alert("Pesan Berhasil Terkirim!");
+                location.replace("contact.html")
+            }
+        }
+    </script>
+
+</body>
+
+</html>
